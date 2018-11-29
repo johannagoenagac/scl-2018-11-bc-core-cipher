@@ -5,11 +5,45 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+
+  <div id="root">
+
+<form>
+    <div id="screen">
+
+        <h1>Bienvenido a Cesar Secret<h1>
+
+      <p>Aquí podras hacer un cifrado de tus mensajes y poder enviarlo aquien
+        quieras, podrás enviar mensajes en codigo a tus amigos, pareja,
+        amante o quien quieras<p>
+
+
+
+    		<input type="text" id="text" placeholder="Ingresa tu palabra o mensaje
+        a cifrar o descifrar "><br/>
+
+
+        <input type="text" id="offset" placeholder="Desplazamiento"> <br/>
+
+          <div id="mostrarResultado">
+        <textarea  id="resultado"></textarea>
+      </div>
+
+
+
+
+    		<button  id="btnEncode">Cifrar</button>
+    		<button id="btnDecode">Descifrar</button>
+
+
+
     </div>
+</form>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+
   </body>
 </html>
