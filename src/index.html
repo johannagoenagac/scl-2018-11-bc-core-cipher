@@ -8,42 +8,84 @@
 
   <body>
 
-  <div id="root">
+    <div id="root">
 
-<form>
-    <div id="screen">
-
-        <h1>Bienvenido a Cesar Secret<h1>
-
-      <p>Aquí podras hacer un cifrado de tus mensajes y poder enviarlo aquien
-        quieras, podrás enviar mensajes en codigo a tus amigos, pareja,
-        amante o quien quieras<p>
+      <form>
 
 
+        <div id="screen">
 
-    		<input type="text" id="text" placeholder="Ingresa tu palabra o mensaje
-        a cifrar o descifrar "><br/>
+          <header id="header-background">
+            <h1 id="nameCipher">Cesar Secret</h1>
+          </header>
 
 
-        <input type="text" id="offset" placeholder="Desplazamiento"> <br/>
 
-          <div id="mostrarResultado">
-        <textarea  id="resultado"></textarea>
+          <div id="backgroundBody">
+            <h2 id="welcome">Bienvenidas!</h2>
+
+
+            <p id="textWelcome">Hola! Si estás aquí es por que has sido invitada para participar en nuestra comunidad.
+            Cesar Secret ha sido creada para que mujeres que son acosadas o abusadas laboralmente,
+            tengan una forma segura de comunicarse y ayudarse para que cada vez menos mujeres tengan que
+            pasar por estas situaciones, aquí podras codificar tus mensajes y enviarlos a tu red de apoyo
+            dentro y fuera de tu empresa. Animate y se una más en esta gran red de ayuda entre mujeres.<br/>
+            Lee las instrucciones a continuacion y comienza</p>
+
+
+            <h3 id ="instruction">Instrucciones de uso</h3>
+
+              <ul>
+
+                <li>Ingresa tu mensaje a cifrar o descifrar</li>
+                <li>Ingresa el numeros de veces que quieras que la letra se desplace</li>
+                <li>Presiona cifrar o descifrar según corresponda</li>
+                <li>Copia el texto que has codificado y envialo por el medio que tu quieras</li>
+                <li>Recuerda enviar el numero que has usado para el desplazamiento "Offset"</li>
+                <li>Solo utiliza letras del abecedario en Mayuscula</li>
+                <li>No utilices la letra "ñ" en tu mensaje</li>
+                <li>No utilices caracteres especiales en tu mensaje</li>
+
+              </ul>
+
+              <button id="btnEntrar">Entrar</button>
+
+
+        </div>
+
       </div>
 
+        <div id="screen2">
+          
+          <h4 id="textSecondScreen">Ingresa un mensaje a Cifrar o Descifrar<br/>
+          Si deseas volver a ver las instrucciones, presiona "Volver al Inicio"</h4>
+
+          <input type="text" id="text" placeholder="Ingrese el mensaje a cifrar o descifrar"><br/>
 
 
+           <input type="text" id="offset" placeholder="Ingrese un numero"><br/>
 
-    		<button  id="btnEncode">Cifrar</button>
-    		<button id="btnDecode">Descifrar</button>
+          <p><div id="btnscipher">
+            <button id="btnEncode">Cifrar</button>
+            <button id="btnDecode">Descifrar</button>
+          </div></p>
 
+          <div id="mostrarResultado">
+            <p><textarea id="resultado"></textarea></p>
+          </div>
 
+          <p><div id="btnsFinal">
+          <button type="reset">Reset</button>
+          <button id="volver" onclick=location=URL><span>Volver Al Inicio</span></button>
+          </div><p>
 
     </div>
-</form>
+  </div>
+  </form>
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
 
   </body>
+
 </html>
