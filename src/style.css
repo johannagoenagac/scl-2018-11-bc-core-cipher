@@ -21,13 +21,33 @@ body{
 #welcome{
   font-size:35px;
   color:#5A5D5D;
+
+}
+
+#whoIs{
+  font-size: 20px;
+  font-family: sans-serif;
+  color:#5A5D5D;
+
+}
+
+#definitionCipher{
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #0D505D;
+}
+
+#introduction{
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #0D505D;
 }
 
 #instruction{
-  font-size:20px;
+  font-size:25px;
   color:#5A5D5D;
   text-decoration: underline #204F65;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   margin-top: 20px;
 }
 
@@ -48,6 +68,23 @@ img{
   float:right;
 }
 
+#imgCipher{
+  float: right 100%;
+  
+}
+
+#cipherCaesar{
+  width: 600px;
+  height:200px ;
+  text-align: center;
+  float:left;
+  margin-left: 40px;
+}
+ 
+.bloque{
+  display:inline-block;
+  
+}
 
 #backgroundBody{
   background-color:#b2ebf2 ;
@@ -78,6 +115,8 @@ ul{
 #screen2{
   display: none;
   background-color: #b2ebf2;
+  background-image: url();
+  background-size: 100%;
 }
 
 
@@ -134,4 +173,17 @@ textarea{
   width: 100%;
   height: 40px;
 
+}
+
+footer{
+  background-image: url("https://cartaya.aquopolis.es/wp-content/themes/mexin_child_theme/images/footer_waves.png");
+  background-position: 100% 100%;
+  background-size: 100% auto;
+  height: 80px;
+}
+
+#goodbyeMsj{
+  font-size: 50px;
+  color:#11BFE8;
+  
 }

@@ -31,4 +31,6 @@ document.getElementById("btnEntrar").addEventListener("click",
   document.getElementById("screen2").style.display="block";
 })
 
+
 }
+//onclick=location=URL

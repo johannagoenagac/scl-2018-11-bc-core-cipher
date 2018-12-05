@@ -8,62 +8,74 @@
 
   <body>
 
-    <div id="root">
+    <form>
 
-      <form>
+    
+      <div id="screen">
 
-
-        <div id="screen">
-
-          <header id="header-background">
-            <h1 id="nameCipher">Cesar Secret</h1>
-          </header>
+        <header id="header-background">
+          <h1 id="nameCipher">Cesar Secret</h1>
+        </header>
 
 
 
-          <div id="backgroundBody">
-            <h2 id="welcome">Bienvenidas!</h2>
+        <div id="backgroundBody">
+          <h2 id="welcome">Bienvenidas!</h2>
 
-
-            <p id="textWelcome">Hola! Si estás aquí es por que has sido invitada para participar en nuestra comunidad.
+          <div id="textWelcome">
+            <p>Si estás aquí es por que has sido invitada para participar en nuestra comunidad.
             Cesar Secret ha sido creada para que mujeres que son acosadas o abusadas laboralmente,
             tengan una forma segura de comunicarse y ayudarse para que cada vez menos mujeres tengan que
-            pasar por estas situaciones, aquí podras codificar tus mensajes y enviarlos a tu red de apoyo
-            dentro y fuera de tu empresa. Animate y se una más en esta gran red de ayuda entre mujeres.<br/>
-            Lee las instrucciones a continuacion y comienza</p>
+            pasar por estas situaciones, aquí podras codificar tus mensajes a través de una tecnica llamada cifrado cesar y enviarlos a tu red de apoyo
+            dentro y fuera de tu empresa.<br/> Animate y se una más en esta gran red de ayuda!<br/></p>
+          </div>
+          
 
+          <div class="bloque" id="cipherCaesar">
+            
+            <h4 id="whoIs">Que es el Cifrado de cesar?</h4>
+          
+            <p id="definitionCipher">El cifrado César, también conocido como cifrado por desplazamiento, 
+            es una de las técnicas de cifrado más simples y más usadas. 
+            Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra 
+            letra que se encuentra un número fijo de posiciones más adelante en el alfabeto. Por ejemplo, con un 
+            desplazamiento de 3, la A sería sustituida por la D (situada 3 lugares a la derecha de la A), la B 
+            sería reemplazada por la E, etc. Este método debe su nombre a Julio César, que lo usaba para comunicarse 
+            con sus generales.</p>
 
-            <h3 id ="instruction">Instrucciones de uso</h3>
+            <p id="introduction">Para cifrar tus mensajes solo deberas ingresarlo en el formulario, elegir un numero y cifrar o descifrar segun corresponda.<br/>Para comenzar presiona ENTRAR</p>
+          </div>
 
-              <ul>
-
-                <li>Ingresa tu mensaje a cifrar o descifrar</li>
-                <li>Ingresa el numeros de veces que quieras que la letra se desplace</li>
-                <li>Presiona cifrar o descifrar según corresponda</li>
-                <li>Copia el texto que has codificado y envialo por el medio que tu quieras</li>
-                <li>Recuerda enviar el numero que has usado para el desplazamiento "Offset"</li>
-                <li>Solo utiliza letras del abecedario en Mayuscula</li>
-                <li>No utilices la letra "ñ" en tu mensaje</li>
-                <li>No utilices caracteres especiales en tu mensaje</li>
-
-              </ul>
-
-              <button id="btnEntrar">Entrar</button>
+          <div class="bloque" id="imgCipher"><img src="https://mariapaniagua99.files.wordpress.com/2017/02/captura-de-pantalla-de-2017-02-07-105454.png?w=620"></div>
+        
+              
+           
+          <div><button id="btnEntrar">Entrar</button></div>
 
 
         </div>
 
       </div>
 
-        <div id="screen2">
-          
-          <h4 id="textSecondScreen">Ingresa un mensaje a Cifrar o Descifrar<br/>
-          Si deseas volver a ver las instrucciones, presiona "Volver al Inicio"</h4>
+      <div id="screen2">
 
-          <input type="text" id="text" placeholder="Ingrese el mensaje a cifrar o descifrar"><br/>
+          <div id="instructionList">
+            <h3 id ="instruction">Instrucciones de uso</h3>
+  
+              <ul>
+  
+                
+                <li>Solo utiliza letras del abecedario en Mayuscula</li>
+                <li>No utilices la letra "ñ" en tu mensaje</li>
+                <li>No utilices caracteres especiales en tu mensaje</li>
+  
+              </ul>
+          </div>
+
+        <input type="text" id="text" placeholder="Ingrese el mensaje a cifrar o descifrar"><br/>
 
 
-           <input type="text" id="offset" placeholder="Ingrese un numero"><br/>
+        <input type="text" id="offset" placeholder="Ingrese un numero"><br/>
 
           <p><div id="btnscipher">
             <button id="btnEncode">Cifrar</button>
@@ -76,12 +88,20 @@
 
           <p><div id="btnsFinal">
           <button type="reset">Reset</button>
-          <button id="volver" onclick=location=URL><span>Volver Al Inicio</span></button>
-          </div><p>
+          <button id="volver" ><span>Volver Al Inicio</span></button>
+          </div></p>
 
+          <footer>
+              
+          </footer>
+            
+        
+      </div>
+
+    <div id="root">
     </div>
-  </div>
-  </form>
+    
+    </form>
 
     <script src="cipher.js"></script>
     <script src="index.js"></script>
