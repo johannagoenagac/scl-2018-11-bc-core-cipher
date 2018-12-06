@@ -15,7 +15,6 @@ window.cipher = {
 
   }
       return result;
-
 },
 
   decode: (textElement,offsetNumber) => {
