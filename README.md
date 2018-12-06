@@ -6,8 +6,9 @@ En nuestro sitio podran codificar sus mensajes a tráves de una tecnica llamada 
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
 
-Esta pagina podrás verla en el siguiente link:()
-![cesar-secret]()
+### Esta pagina podrás verla en el siguiente link
+
+https://johannagoenagac.github.io/scl-2018-11-bc-core-cipher/
 
 ## Como utilizarlo:
 
@@ -58,7 +59,7 @@ Se hace una prueba con una usuaria, Francia de 18 años prueba la pagina y se en
 
 Luego de esto se considera lo siguiente:
 
-- Luego de dar la bienvenida en la pagina, se hará un breve resumén de que trata nuestro sitio.
+- Luego de dar la bienvenida en la pagina, se hará un breve resumén de que trata el sitio.
 - Se hará una breve introduccion al significado del código cesar y como funciona nuestra pagina.
 - Las instrucciones iran en la segunda pantalla, en la parte superior del formulario para codificar.
 - Estás instrucciones solo harán referencia a la forma en que se ingresa el mensaje y cuales son las restricciones.
@@ -76,6 +77,10 @@ En el siguiente link se podrá ver la planificación del proyecto
 
 https://trello.com/b/zU5Khtxl/cifrado-de-mensajes
 
+## Test Realizados
+
+![Test](imagenesProyecto/Test.png)
+
 ## Resultado final
 
 ### Primera pantalla
@@ -85,6 +90,3 @@ https://trello.com/b/zU5Khtxl/cifrado-de-mensajes
 ### Segunda pantalla
 ![pantalla2](imagenesProyecto/pantalla2cesarSecret.png)
 
-## Test Realizados
-
-![Test](imagenesProyecto/Test.png)
