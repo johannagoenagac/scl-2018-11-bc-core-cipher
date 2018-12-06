@@ -36,7 +36,7 @@ window.cipher = {
           asciiOffset+=26;
         }
         result +=String.fromCharCode(asciiOffset);
-      }else{
+      }else {
         result +=textElement[i]
     }
   }

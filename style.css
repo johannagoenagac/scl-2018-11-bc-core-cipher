@@ -5,10 +5,14 @@ body{
 
 #nameCipher{
   font-size:60px;
-  color: #278AB8;
+  color: white;
+  float: left;
+  margin-left: 80px;
+  margin-top:30px; 
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
-
+ 
 #textWelcome{
   font-size: 20px;
   font-family: sans-serif;
@@ -51,9 +55,9 @@ body{
   margin-top: 20px;
 }
 
-#header-background{
+header{
    background-color: #000000;
-   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-fk53IsKHQ2wUSltbUj7e5AiXlhw_KHVrgQgyBD573lWk3Ec);
+   background-image: url(http://elitebusinessmagazine.co.uk/cache/com_zoo/images/The%20power%20of%20the%20connect%20effect%20why%20women%20are%20stronger%20when%20united%20EliteBusinessMagazine.co_374d260a3b73f696fc71f18af8acbc88.jpg);
    background-position: 100% 100%;
    background-repeat: no-repeat;
    background-size: cover;
@@ -78,7 +82,7 @@ img{
   height:200px ;
   text-align: center;
   float:left;
-  margin-left: 40px;
+  margin-left: 60px;
 }
  
 .bloque{
@@ -106,7 +110,7 @@ ul{
   text-align:center;list-style-position:inside;
   color:#0D505D;
   text-align: left;
-  padding-left: 400px;
+  padding-left: 500px;
 
 }
 
@@ -142,7 +146,6 @@ input{
 
 }
 button{
-  /*margin-top: 10px;*/
   border-radius: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -176,10 +179,11 @@ textarea{
 }
 
 footer{
-  background-image: url("https://cartaya.aquopolis.es/wp-content/themes/mexin_child_theme/images/footer_waves.png");
+  background-image: url(https://lifestance.com/wp-content/uploads/2017/04/lifestance-footer-transparent.png);
   background-position: 100% 100%;
   background-size: 100% auto;
-  height: 80px;
+  height: 90px;
+  margin-bottom: 0%;
 }
 
 #goodbyeMsj{
@@ -187,3 +191,4 @@ footer{
   color:#11BFE8;
   
 }
+
