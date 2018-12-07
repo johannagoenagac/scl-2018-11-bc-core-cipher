@@ -79,6 +79,8 @@ https://trello.com/b/zU5Khtxl/cifrado-de-mensajes
 
 ## Test Realizados
 
+Para corroborar el correcto uso del sitio, se han realizado test tales como Mocha y Chai
+
 ![Test](imagenesProyecto/Test.png)
 
 ## Resultado final

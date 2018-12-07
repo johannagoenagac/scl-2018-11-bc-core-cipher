@@ -12,11 +12,9 @@ window.cipher = {
         let asciiOffset =(ascii - 97 + offsetNumber)%26 + 97;
         result +=String.fromCharCode(asciiOffset);
     }
-
   }
       return result;
 },
-
   decode: (textElement,offsetNumber) => {
 
     let result="";
